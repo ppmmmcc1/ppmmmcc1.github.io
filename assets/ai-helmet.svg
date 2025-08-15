@@ -1,0 +1,18 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  <ellipse cx="200" cy="150" rx="120" ry="100" fill="#2c3e50"/>
+  <ellipse cx="200" cy="140" rx="110" ry="90" fill="#34495e"/>
+  <rect x="90" y="120" width="220" height="60" rx="30" fill="none" stroke="#3498db" stroke-width="3" opacity="0.7"/>
+  <circle cx="130" cy="100" r="6" fill="#e74c3c"/>
+  <circle cx="270" cy="100" r="6" fill="#e74c3c"/>
+  <circle cx="200" cy="80" r="6" fill="#e74c3c"/>
+  <rect x="120" y="140" width="160" height="20" rx="10" fill="#27ae60" opacity="0.8"/>
+  <rect x="150" y="145" width="100" height="10" rx="5" fill="#2ecc71"/>
+  <path d="M200 60 L200 40 M190 45 L200 40 L210 45" stroke="#f39c12" stroke-width="3" fill="none"/>
+  <circle cx="200" cy="35" r="8" fill="#f39c12"/>
+  <text x="200" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">AI MOTORCYCLE HELMET</text>
+  <text x="80" y="280" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#7f8c8d">• BLIND SPOT DETECTION</text>
+  <text x="80" y="292" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#7f8c8d">• HEADS-UP DISPLAY</text>
+  <text x="240" y="280" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#7f8c8d">• HAZARD PREDICTION</text>
+  <text x="240" y="292" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#7f8c8d">• AI LEARNING</text>
+</svg>

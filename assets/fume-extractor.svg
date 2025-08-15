@@ -1,0 +1,21 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  <rect x="100" y="100" width="200" height="100" rx="12" fill="#2c3e50"/>
+  <rect x="110" y="110" width="180" height="20" rx="4" fill="#3498db"/>
+  <circle cx="200" cy="150" r="30" fill="#34495e" stroke="#2c3e50" stroke-width="3"/>
+  <circle cx="200" cy="150" r="20" fill="#95a5a6"/>
+  <circle cx="200" cy="150" r="12" fill="#7f8c8d"/>
+  <rect x="150" y="80" width="100" height="20" rx="6" fill="#27ae60"/>
+  <rect x="160" y="85" width="80" height="10" rx="2" fill="#2ecc71"/>
+  <path d="M200 80 Q180 60 160 80" stroke="#e74c3c" stroke-width="2" fill="none"/>
+  <path d="M200 80 Q220 60 240 80" stroke="#e74c3c" stroke-width="2" fill="none"/>
+  <path d="M200 75 Q200 55 200 75" stroke="#e74c3c" stroke-width="2" fill="none"/>
+  <rect x="120" y="200" width="160" height="15" rx="7" fill="#f39c12"/>
+  <circle cx="130" cy="207" r="3" fill="#e67e22"/>
+  <circle cx="270" cy="207" r="3" fill="#e67e22"/>
+  <text x="200" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">CARBON FILTER EXTRACTOR</text>
+  <text x="200" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">USB-C POWERED</text>
+  <text x="80" y="280" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#7f8c8d">• CARBON FILTRATION</text>
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#7f8c8d">• COMPACT DESIGN</text>
+  <text x="300" y="280" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#7f8c8d">• 5V FAN</text>
+</svg>

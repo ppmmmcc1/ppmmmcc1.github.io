@@ -1,0 +1,29 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  <rect x="50" y="200" width="300" height="80" rx="8" fill="#f39c12" opacity="0.3"/>
+  <rect x="60" y="210" width="80" height="60" rx="4" fill="#3498db"/>
+  <rect x="150" y="210" width="80" height="60" rx="4" fill="#3498db"/>
+  <rect x="240" y="210" width="80" height="60" rx="4" fill="#3498db"/>
+  <circle cx="120" cy="120" r="25" fill="#2c3e50"/>
+  <circle cx="95" cy="120" r="8" fill="#7f8c8d"/>
+  <circle cx="145" cy="120" r="8" fill="#7f8c8d"/>
+  <circle cx="120" cy="95" r="8" fill="#7f8c8d"/>
+  <circle cx="120" cy="145" r="8" fill="#7f8c8d"/>
+  <circle cx="200" cy="80" r="15" fill="#e74c3c"/>
+  <circle cx="185" cy="80" r="5" fill="#95a5a6"/>
+  <circle cx="215" cy="80" r="5" fill="#95a5a6"/>
+  <circle cx="200" cy="65" r="5" fill="#95a5a6"/>
+  <circle cx="200" cy="95" r="5" fill="#95a5a6"/>
+  <circle cx="300" cy="60" r="18" fill="#27ae60"/>
+  <circle cx="285" cy="60" r="6" fill="#95a5a6"/>
+  <circle cx="315" cy="60" r="6" fill="#95a5a6"/>
+  <circle cx="300" cy="45" r="6" fill="#95a5a6"/>
+  <circle cx="300" cy="75" r="6" fill="#95a5a6"/>
+  <path d="M120 145 Q150 180 180 190" stroke="#34495e" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+  <path d="M200 95 Q220 130 240 190" stroke="#34495e" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+  <text x="200" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">SOLAR FARM DRONES</text>
+  <text x="60" y="290" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#7f8c8d">SOLAR PANELS</text>
+  <text x="120" y="165" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#7f8c8d">QUEEN</text>
+  <text x="200" y="110" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#7f8c8d">WORKER</text>
+  <text x="300" y="100" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#7f8c8d">SCOUT</text>
+</svg>
