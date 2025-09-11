@@ -35,15 +35,15 @@
                         <h2 class="section-heading">OVERVIEW</h2>
                         <div class="section-divider"></div>
                         <p class="section-text">
-                            I built this compact carbon filter fume extractor to solve a real problem in my home workshop — poor ventilation when soldering. Commercial options at the low end were underpowered and overpriced, so I decided to design and build one myself using materials I already had. The goal was a unit that was small, efficient, and reliable, with thoughtful design choices that made it easy to maintain.
+                            I designed this monitor mount to support a 7.1 kg, 31.5-inch Acer monitor while keeping the ports easy to access. The concept started with a simple block that locked the monitor at 90 degrees, but I wanted the ability to swivel it up for convenience. From the start I knew PETG would be strong enough, so the challenge became finding the right balance between strength and efficiency by cutting weight where possible while maintaining a high factor of safety.
                         </p>
                     </section>
 
                     <section class="project-section">
-                        <h2 class="section-heading">ENGINEERING CHALLENGES</h2>
+                        <h2 class="section-heading">CHALLENGES</h2>
                         <div class="section-divider"></div>
                         <p class="section-text">
-                            The first design included a stand for adjustable angles, but testing proved the fan's airflow was strong enough to pull fumes from four inches away without repositioning. Removing the stand simplified the build and improved print orientation. Initially, I used a 12 V fan and a voltage booster, but repeated failures during testing (confirmed with multimeter readings) showed the setup was overstressing components. I switched to a 5 V USB-C fan that reduced electrical load, simplified wiring, and eliminated the problematic booster circuit entirely.
+                           My first simulation showed that a solid PETG block would easily handle the weight, so I began reducing material in controlled ways. Triangular supports set just three millimeters from the walls carried the load well, and additional cutouts only improved force distribution. To push the design, I ran a study with 100 newtons pushing from the top and another 100 newtons pulling through the hinge pin. The results came back mostly in blue and light green, showing plenty of safety margin, with only a small stress spot on one triangle. Instead of adding more infill, I simplified the geometry and added a triangle cutout behind the hinge hole, which increased strength without extra material.I was also concerned about twisting forces being too much for a single screw, so I added a second one and moved them apart to distribute the load. After several iterations I rethought the hinge placement and found a better position that gave me a cleaner load path. Adding the pin to the assembly and running a final simulation confirmed the design.
                         </p>
                     </section>
 
@@ -55,7 +55,7 @@
                         <h2 class="section-heading">RESULT</h2>
                         <div class="section-divider"></div>
                         <p class="section-text">
-                            The finished extractor outperformed similar commercial units, cost me about five dollars to build, and could be serviced easily if needed. More importantly, it taught me how small design changes can have big performance impacts, and how to merge airflow efficiency, electronics troubleshooting, and structural design into a single, well-balanced product.
+                            After eight design iterations and many simulations the mount consistently showed a factor of safety between two and five. Maximum displacement was measured at only 0.3 millimeters, well within safe limits. The process reinforced my approach of simplify then lighten: remove unnecessary material, reinforce only where the data shows weakness, and trust the results. The final mount is efficient, reliable, and able to hold my monitor in place with confidence.
                         </p>
                     </section>
                 </div>
