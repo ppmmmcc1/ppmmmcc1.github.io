@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONITOR MOUNT - PHILLIP CASTRO</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo"><a href="index.html" class="logo-link">HOME</a></h1>
+            <nav class="nav">
+                <a href="about.html" class="nav-link">ABOUT</a>
+                <a href="contact.html" class="nav-link">CONTACT</a>
+            </nav>
+        </div>
+    </header>
 
+    <main class="main">
+        <div class="container">
+            <div class="content">
+                <div class="project-header">
+                    <a href="projects.html" class="back-link">← BACK TO PROJECTS</a>
+                    <h1 class="project-title">MONITOR MOUNT</h1>
+                    <p class="project-subtitle">Product Design | 3D Printing | Circuit Prototyping | Air Filtration</p>
+                </div>
+
+                <div class="project-image-hero">
+                    <img src="/assets/carbon-filter-main.jpg" alt="Carbon Filter Fume Extractor" loading="lazy">
+                </div>
+
+                <div class="project-content">
+                    <section class="project-section">
+                        <h2 class="section-heading">OVERVIEW</h2>
+                        <div class="section-divider"></div>
+                        <p class="section-text">
+                            I built this compact carbon filter fume extractor to solve a real problem in my home workshop — poor ventilation when soldering. Commercial options at the low end were underpowered and overpriced, so I decided to design and build one myself using materials I already had. The goal was a unit that was small, efficient, and reliable, with thoughtful design choices that made it easy to maintain.
+                        </p>
+                    </section>
+
+                    <section class="project-section">
+                        <h2 class="section-heading">ENGINEERING CHALLENGES</h2>
+                        <div class="section-divider"></div>
+                        <p class="section-text">
+                            The first design included a stand for adjustable angles, but testing proved the fan's airflow was strong enough to pull fumes from four inches away without repositioning. Removing the stand simplified the build and improved print orientation. Initially, I used a 12 V fan and a voltage booster, but repeated failures during testing (confirmed with multimeter readings) showed the setup was overstressing components. I switched to a 5 V USB-C fan that reduced electrical load, simplified wiring, and eliminated the problematic booster circuit entirely.
+                        </p>
+                    </section>
+
+                    <div class="project-image-centered">
+                        <img src="/assets/carbon-filter-beauty.jpg" alt="Carbon Filter Fume Extractor beauty shot" loading="lazy">
+                    </div>
+
+                    <section class="project-section">
+                        <h2 class="section-heading">RESULT</h2>
+                        <div class="section-divider"></div>
+                        <p class="section-text">
+                            The finished extractor outperformed similar commercial units, cost me about five dollars to build, and could be serviced easily if needed. More importantly, it taught me how small design changes can have big performance impacts, and how to merge airflow efficiency, electronics troubleshooting, and structural design into a single, well-balanced product.
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
