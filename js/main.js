@@ -209,19 +209,6 @@
             });
         });
 
-        // Handle PDF resume link errors
-        const resumeLinks = document.querySelectorAll('a[href*=".pdf"]');
-        resumeLinks.forEach(function(link) {
-            link.addEventListener('click', function(e) {
-                // Add loading state
-                const originalText = this.textContent;
-                this.textContent = 'Loading...';
-                
-                setTimeout(() => {
-                    this.textContent = originalText;
-                }, 1000);
-            });
-        });
     }
 
 
@@ -255,34 +242,3 @@
 
 })();
 
-// Performance monitoring
-if ('performance' in window) {
-    window.addEventListener('load', function() {
-        setTimeout(function() {
-            const perfData = performance.timing;
-            const loadTime = perfData.loadEventEnd - perfData.navigationStart;
-            
-            // Log performance data for optimization
-            console.log('Page load time:', loadTime + 'ms');
-            
-            // Send analytics if needed
-            if (loadTime > 3000) {
-                console.warn('Page load time is high:', loadTime + 'ms');
-            }
-        }, 0);
-    });
-}
-
-// Service Worker registration for offline capability (optional)
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-        // Uncomment to enable service worker
-        // navigator.serviceWorker.register('/sw.js')
-        //     .then(function(registration) {
-        //         console.log('SW registered: ', registration);
-        //     })
-        //     .catch(function(registrationError) {
-        //         console.log('SW registration failed: ', registrationError);
-        //     });
-    });
-}
