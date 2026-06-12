@@ -4,97 +4,77 @@
     <script defer src="https://cloud.umami.is/script.js" data-website-id="4bf6eea5-e46d-4993-bb5a-0c5403af5fff"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONCEPTS - PHILLIP CASTRO</title>
+    <title>Concepts — Phillip Castro</title>
     <meta name="description" content="Concept work by Phillip Castro — AI helmet, swarm solar drones, filament recycler, off-grid sensor, hydroponic automation.">
     <meta property="og:title" content="Concepts — Phillip Castro">
     <meta property="og:description" content="Early-stage engineering concepts oriented around sustainability and AI as a tool, not a crutch.">
-    <meta property="og:image" content="https://ppmmmcc1.github.io/assets/ai-helmet.svg">
-    <meta property="og:url" content="https://ppmmmcc1.github.io/concepts.html">
+    <meta property="og:image" content="https://ppmmcc.dev/assets/ai-helmet.svg">
+    <meta property="og:url" content="https://ppmmcc.dev/concepts.html">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
         <div class="container">
-            <h1 class="logo"><a href="index.html" class="logo-link">HOME</a></h1>
-            <nav class="nav">
-                <a href="about.html" class="nav-link">ABOUT</a>
-                <a href="vision.html" class="nav-link">VISION</a>
-                <a href="contact.html" class="nav-link">CONTACT</a>
+            <a href="index.html" class="site-mark" aria-label="Phillip Castro — home">
+                <span class="mark-name">PC</span>
+            </a>
+            <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-nav">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="site-nav" id="primary-nav" aria-label="Primary">
+                <a href="projects.html"><span class="nav-idx">01</span>Projects</a>
+                <a href="concepts.html" class="active"><span class="nav-idx">02</span>Concepts</a>
+                <a href="about.html"><span class="nav-idx">03</span>About</a>
+                <a href="vision.html"><span class="nav-idx">04</span>Vision</a>
+                <a href="contact.html"><span class="nav-idx">05</span>Contact</a>
             </nav>
         </div>
     </header>
 
-    <main class="main">
+    <main class="page" id="main">
         <div class="container">
-            <div class="content">
-                <h2 class="section-title">CONCEPTS</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <a href="project-1.html" class="project-link">
-                            <div class="project-image">
-                                <img src="/assets/filament-recycler.svg" alt="Filament Recycler" loading="lazy">
-                            </div>
-                            <div class="project-info">
-                                <h3 class="project-name">FILAMENT RECYCLER</h3>
-                                <p class="project-tags">3D PRINTING | SUSTAINABILITY</p>
-                            </div>
-                        </a>
-                    </div>
+            <header class="page-head">
+                <p class="kicker" data-reveal>Early-Stage Ideas in Development</p>
+                <h1 class="page-title" data-split>Concepts</h1>
+                <p class="page-lead" data-reveal>Sketches of the thesis on the <a href="vision.html" style="border-bottom:1px solid var(--accent);">Vision</a> page — sustainability and AI as a tool, not a crutch.</p>
+            </header>
 
-                    <div class="project-card">
-                        <a href="project-4.html" class="project-link">
-                            <div class="project-image">
-                                <img src="/assets/hydroponic-ec.svg" alt="Hydroponic EC Automation" loading="lazy">
-                            </div>
-                            <div class="project-info">
-                            <h3 class="project-name">AUTOMATIC HYDROPONIC SYSTEM</h3>
-                                <p class="project-tags">ARDUINO | SENSORS | WATER</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="project-card">
-                        <a href="project-7.html" class="project-link">
-                            <div class="project-image">
-                                <img src="/assets/ai-helmet.svg" alt="AI-Powered Motorcycle Helmet" loading="lazy">
-                            </div>
-                            <div class="project-info">
-                                <h3 class="project-name">AI-POWERED MOTORCYCLE HELMET</h3>
-                                <p class="project-tags">AI | EMBEDDED SYSTEMS | SAFETY TECH</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="project-card">
-                        <a href="project-8.html" class="project-link">
-                            <div class="project-image">
-                                <img src="/assets/solar-drones.svg" alt="Automated Solar Farm Drones" loading="lazy">
-                            </div>
-                            <div class="project-info">
-                                <h3 class="project-name">AUTOMATED SOLAR FARM DRONES</h3>
-                                <p class="project-tags">AI | ROBOTICS | RENEWABLE ENERGY</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="project-card">
-                        <a href="project-9.html" class="project-link">
-                            <div class="project-image">
-                                <img src="/assets/sentinel-sensor.svg" alt="Sentinel Environmental Sensor" loading="lazy">
-                            </div>
-                            <div class="project-info">
-                                <h3 class="project-name">OFF GRID PUBLIC ENVIRONMENTAL SENSOR</h3>
-                                <p class="project-tags">IOT | SOLAR | ENVIRONMENTAL MONITORING</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
+            <div data-work-list="concept"></div>
         </div>
     </main>
 
-    <script src="js/main.js"></script>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <p class="footer-mark">Building hardware for a Type&nbsp;I civilization.</p>
+                <nav class="footer-links" aria-label="Footer">
+                    <a href="projects.html">Projects</a>
+                    <a href="concepts.html">Concepts</a>
+                    <a href="about.html">About</a>
+                    <a href="vision.html">Vision</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="/assets/PhillipCastro_Resume.pdf" target="_blank" rel="noopener noreferrer">Résumé ↗</a>
+                </nav>
+            </div>
+            <div class="footer-base">
+                <span>© <span data-year>2026</span> Phillip Castro</span>
+                <span>Boston, MA</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js" defer></script>
+    <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js" defer></script>
+    <script src="js/motion.js" defer></script>
+    <script src="js/render.js" defer></script>
+    <script src="js/main.js" defer></script>
 </body>
 </html>

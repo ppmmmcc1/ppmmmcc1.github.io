@@ -1,0 +1,9 @@
+{
+  "name": "ppmmcc-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static engineering portfolio (ppmmcc.dev). Edit projects in /admin.html, then `npm run sync` to bake the content into the repo and `git push`.",
+  "scripts": {
+    "sync": "node scripts/sync-from-supabase.mjs"
+  }
+}

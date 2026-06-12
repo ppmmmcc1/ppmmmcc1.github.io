@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Admin — Phillip Castro</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="admin-shell">
+        <div class="admin-bar">
+            <span class="brand"><span class="dot"></span> Studio · Admin</span>
+            <div class="bar-actions" id="bar-actions">
+                <a class="btn btn-sm" href="index.html"><span>View site ↗</span></a>
+            </div>
+        </div>
+        <main class="admin-main" id="admin-root">
+            <p class="state-msg">Loading…</p>
+        </main>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+    <script src="js/config.js" defer></script>
+    <script src="js/supabase-client.js" defer></script>
+    <script src="js/admin.js" defer></script>
+    <script src="js/main.js" defer></script>
+</body>
+</html>

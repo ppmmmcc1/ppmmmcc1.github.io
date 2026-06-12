@@ -4,61 +4,132 @@
     <script defer src="https://cloud.umami.is/script.js" data-website-id="4bf6eea5-e46d-4993-bb5a-0c5403af5fff"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phillip Castro — Engineering Portfolio</title>
     <meta name="description" content="Phillip Castro — mechanical engineering student building sustainable hardware. CAD, FEA, embedded systems, 3D printing.">
     <meta property="og:title" content="Phillip Castro — Engineering Portfolio">
     <meta property="og:description" content="Mechanical engineering student building hardware for a Type I civilization.">
-    <meta property="og:image" content="https://ppmmmcc1.github.io/assets/raspi-beauty-render.jpg">
-    <meta property="og:url" content="https://ppmmmcc1.github.io/">
+    <meta property="og:image" content="https://ppmmcc.dev/assets/raspi-beauty-render.jpg">
+    <meta property="og:url" content="https://ppmmcc.dev/">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
         <div class="container">
-            <h1 class="logo">PHILLIP CASTRO</h1>
-            <nav class="nav">
-                <a href="about.html" class="nav-link">ABOUT</a>
-                <a href="contact.html" class="nav-link">CONTACT</a>
+            <a href="index.html" class="site-mark" aria-label="Phillip Castro — home">
+                <span class="mark-name">PC</span>
+            </a>
+            <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-nav">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="site-nav" id="primary-nav" aria-label="Primary">
+                <a href="projects.html"><span class="nav-idx">01</span>Projects</a>
+                <a href="concepts.html"><span class="nav-idx">02</span>Concepts</a>
+                <a href="about.html"><span class="nav-idx">03</span>About</a>
+                <a href="vision.html"><span class="nav-idx">04</span>Vision</a>
+                <a href="contact.html"><span class="nav-idx">05</span>Contact</a>
             </nav>
         </div>
     </header>
 
-    <main class="main">
-        <div class="container">
-            <section class="hero">
-                <h2 class="hero-title">Building hardware for a Type I civilization.</h2>
-            </section>
+    <main class="page" id="main">
+        <section class="hero container">
+            <p class="kicker hero-kicker" data-reveal>Engineering Portfolio — 2026</p>
+            <h1 class="hero-title" data-split>Building hardware for a <span class="accent">Type&nbsp;I civilization.</span></h1>
+            <div class="hero-meta">
+                <p class="hero-sub" data-reveal>Mechanical engineering student turning measurements and sketches into parts you can hold — CAD, FEA, embedded systems, and 3D printing, with sustainability as the through-line.</p>
+                <span class="scroll-cue" data-reveal><span class="line"></span> Scroll</span>
+            </div>
+        </section>
 
-            <div class="grid-container">
-                <div class="grid-item">
-                    <a href="projects.html" class="grid-link">
-                        <h2 class="grid-title">PROJECTS</h2>
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a href="concepts.html" class="grid-link">
-                        <h2 class="grid-title">CONCEPTS</h2>
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a href="vision.html" class="grid-link">
-                        <h2 class="grid-title">VISION</h2>
-                    </a>
+        <section class="section container">
+            <div class="section-index" data-reveal><span class="tick">●</span> Index</div>
+            <div class="index-list">
+                <a class="index-row" href="projects.html" data-reveal>
+                    <span class="ir-idx">01</span>
+                    <span class="ir-title">Projects</span>
+                    <span class="ir-desc">Built &amp; shipped hardware</span>
+                    <span class="ir-arrow" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </span>
+                </a>
+                <a class="index-row" href="concepts.html" data-reveal>
+                    <span class="ir-idx">02</span>
+                    <span class="ir-title">Concepts</span>
+                    <span class="ir-desc">Early-stage ideas in development</span>
+                    <span class="ir-arrow" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </span>
+                </a>
+                <a class="index-row" href="about.html" data-reveal>
+                    <span class="ir-idx">03</span>
+                    <span class="ir-title">About</span>
+                    <span class="ir-desc">Who I am &amp; how I work</span>
+                    <span class="ir-arrow" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </span>
+                </a>
+                <a class="index-row" href="vision.html" data-reveal>
+                    <span class="ir-idx">04</span>
+                    <span class="ir-title">Vision</span>
+                    <span class="ir-desc">Why I build — the long view</span>
+                    <span class="ir-arrow" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </span>
+                </a>
+                <a class="index-row" href="contact.html" data-reveal>
+                    <span class="ir-idx">05</span>
+                    <span class="ir-title">Contact</span>
+                    <span class="ir-desc">Start a conversation</span>
+                    <span class="ir-arrow" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="now-panel" data-reveal>
+                <span class="now-status"><span class="dot"></span> Now — open to internships &amp; co-ops</span>
+                <p class="now-text">Currently building an AI-powered motorcycle helmet and swarm solar-farm drones.</p>
+                <div class="now-cta">
+                    <a class="btn" data-magnetic href="/assets/PhillipCastro_Resume.pdf" target="_blank" rel="noopener noreferrer"><span>Download résumé</span></a>
+                    <a class="btn" data-magnetic href="contact.html"><span>Get in touch</span></a>
                 </div>
             </div>
-
-            <section class="now-block">
-                <p class="now-label">NOW</p>
-                <p class="now-text">Currently building: AI-powered motorcycle helmet, swarm solar drones. Open to internship and co-op conversations.</p>
-                <div class="now-cta">
-                    <a href="/assets/PhillipCastro_Resume.pdf" class="resume-download-btn" target="_blank" rel="noopener noreferrer">DOWNLOAD RESUME</a>
-                    <a href="contact.html" class="resume-download-btn">GET IN TOUCH</a>
-                </div>
-            </section>
-        </div>
+        </section>
     </main>
 
-    <script src="js/main.js"></script>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <p class="footer-mark">Building hardware for a Type&nbsp;I civilization.</p>
+                <nav class="footer-links" aria-label="Footer">
+                    <a href="projects.html">Projects</a>
+                    <a href="concepts.html">Concepts</a>
+                    <a href="about.html">About</a>
+                    <a href="vision.html">Vision</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="/assets/PhillipCastro_Resume.pdf" target="_blank" rel="noopener noreferrer">Résumé ↗</a>
+                </nav>
+            </div>
+            <div class="footer-base">
+                <span>© <span data-year>2026</span> Phillip Castro</span>
+                <span>Boston, MA</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js" defer></script>
+    <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js" defer></script>
+    <script src="js/motion.js" defer></script>
+    <script src="js/main.js" defer></script>
 </body>
 </html>

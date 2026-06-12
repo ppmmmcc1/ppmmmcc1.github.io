@@ -4,17 +4,25 @@
     <script defer src="https://cloud.umami.is/script.js" data-website-id="4bf6eea5-e46d-4993-bb5a-0c5403af5fff"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects — Phillip Castro</title>
-    <meta name="description" content="Built projects by Phillip Castro — Dassault Systèmes valve cover, FEA monitor mount, Raspberry Pi laptop, carbon-filter fume extractor.">
-    <meta property="og:title" content="Projects — Phillip Castro">
-    <meta property="og:description" content="Built projects: aerospace reverse engineering, FEA-driven design, Raspberry Pi hardware, electronics prototyping.">
+    <title>Project — Phillip Castro</title>
+    <meta name="description" content="A project by Phillip Castro — why it was built, how it was built, and the problems overcome.">
+    <meta property="og:title" content="Project — Phillip Castro">
+    <meta property="og:description" content="A project by Phillip Castro.">
     <meta property="og:image" content="https://ppmmcc.dev/assets/raspi-beauty-render.jpg">
-    <meta property="og:url" content="https://ppmmcc.dev/projects.html">
+    <meta property="og:url" content="https://ppmmcc.dev/project.html">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="css/style.css">
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+        }
+    }
+    </script>
 </head>
 <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -28,7 +36,7 @@
                 <span></span><span></span><span></span>
             </button>
             <nav class="site-nav" id="primary-nav" aria-label="Primary">
-                <a href="projects.html" class="active"><span class="nav-idx">01</span>Projects</a>
+                <a href="projects.html"><span class="nav-idx">01</span>Projects</a>
                 <a href="concepts.html"><span class="nav-idx">02</span>Concepts</a>
                 <a href="about.html"><span class="nav-idx">03</span>About</a>
                 <a href="vision.html"><span class="nav-idx">04</span>Vision</a>
@@ -38,15 +46,9 @@
     </header>
 
     <main class="page" id="main">
-        <div class="container">
-            <header class="page-head">
-                <p class="kicker" data-reveal>Built &amp; Shipped Hardware</p>
-                <h1 class="page-title" data-split>Projects</h1>
-                <p class="page-lead" data-reveal>Things I've designed, simulated, printed, and assembled — from aerospace reverse engineering to FEA-driven mechanical design.</p>
-            </header>
-
-            <div data-work-list="project"></div>
-        </div>
+        <article id="project-detail">
+            <div class="container"><p class="state-msg">Loading…</p></div>
+        </article>
     </main>
 
     <footer class="site-footer">
@@ -73,6 +75,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js" defer></script>
     <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js" defer></script>
+    <script type="module" src="js/stl-viewer.js"></script>
     <script src="js/motion.js" defer></script>
     <script src="js/render.js" defer></script>
     <script src="js/main.js" defer></script>

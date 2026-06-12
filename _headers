@@ -1,0 +1,9 @@
+# Cloudflare static-asset response headers (applies to every path).
+# Conservative, CDN-safe set — no CSP yet so the GSAP/Three.js/Supabase/
+# Google-Fonts CDNs keep working. Add a CSP later with those allow-listed.
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), camera=(), microphone=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains

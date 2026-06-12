@@ -4,63 +4,127 @@
     <script defer src="https://cloud.umami.is/script.js" data-website-id="4bf6eea5-e46d-4993-bb5a-0c5403af5fff"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTACT - PHILLIP CASTRO</title>
+    <title>Contact — Phillip Castro</title>
     <meta name="description" content="Get in touch with Phillip Castro — email, LinkedIn, GitHub.">
     <meta property="og:title" content="Contact — Phillip Castro">
     <meta property="og:description" content="Get in touch with Phillip Castro — email, LinkedIn, GitHub.">
-    <meta property="og:image" content="https://ppmmmcc1.github.io/assets/raspi-beauty-render.jpg">
-    <meta property="og:url" content="https://ppmmmcc1.github.io/contact.html">
+    <meta property="og:image" content="https://ppmmcc.dev/assets/raspi-beauty-render.jpg">
+    <meta property="og:url" content="https://ppmmcc.dev/contact.html">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
         <div class="container">
-            <h1 class="logo"><a href="index.html" class="logo-link">HOME</a></h1>
-            <nav class="nav">
-                <a href="about.html" class="nav-link">ABOUT</a>
-                <a href="vision.html" class="nav-link">VISION</a>
-                <a href="contact.html" class="nav-link active">CONTACT</a>
+            <a href="index.html" class="site-mark" aria-label="Phillip Castro — home">
+                <span class="mark-name">PC</span>
+            </a>
+            <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-nav">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="site-nav" id="primary-nav" aria-label="Primary">
+                <a href="projects.html"><span class="nav-idx">01</span>Projects</a>
+                <a href="concepts.html"><span class="nav-idx">02</span>Concepts</a>
+                <a href="about.html"><span class="nav-idx">03</span>About</a>
+                <a href="vision.html"><span class="nav-idx">04</span>Vision</a>
+                <a href="contact.html" class="active"><span class="nav-idx">05</span>Contact</a>
             </nav>
         </div>
     </header>
 
-    <main class="main">
+    <main class="page" id="main">
         <div class="container">
-            <div class="contact-page-section">
-                <h1 class="page-title">CONTACT</h1>
-                
-                <div class="contact-content">
-                    <p class="contact-intro">Got a question, idea, or want to collaborate? Whether it's about a project, internship, or just something cool you saw, I'm all ears. Reach out through any of the channels below.</p>
-                    
-                    
-                    
-                    <div class="social-icons">
-                        <a href="mailto:phillipcastro0@gmail.com" class="social-icon email-icon" aria-label="Email">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
+            <header class="page-head">
+                <p class="kicker" data-reveal>Let's Build Something</p>
+                <h1 class="page-title" data-split>Contact</h1>
+            </header>
+
+            <div class="contact-wrap">
+                <p class="contact-intro" data-reveal>Got a question, idea, or want to collaborate? Whether it's about a project, internship, or just something cool you saw — I'm all ears. Reach out through any of the channels below.</p>
+
+                <ul class="contact-list" data-reveal>
+                    <li>
+                        <a href="mailto:phillipcastro0@gmail.com" aria-label="Email Phillip Castro">
+                            <span class="c-label">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span class="c-name">Email</span>
+                            </span>
+                            <span class="c-value">phillipcastro0@gmail.com</span>
                         </a>
-                        <a href="https://www.linkedin.com/in/phillip-castro-2bab0a237" class="social-icon linkedin-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <rect x="2" y="9" width="4" height="12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <circle cx="4" cy="4" r="2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/phillip-castro-2bab0a237" target="_blank" rel="noopener noreferrer" aria-label="Phillip Castro on LinkedIn">
+                            <span class="c-label">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <rect x="2" y="9" width="4" height="12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="4" cy="4" r="2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span class="c-name">LinkedIn</span>
+                            </span>
+                            <span class="c-value">in/phillip-castro ↗</span>
                         </a>
-                        <a href="https://github.com/ppmmmcc1" class="social-icon github-icon" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9 19C4 20.5 4 16.5 2 16M22 16V22C22 22.5304 21.7893 23.0391 21.4142 23.4142C21.0391 23.7893 20.5304 24 20 24H16C15.4696 24 14.9609 23.7893 14.5858 23.4142C14.2107 23.0391 14 22.5304 14 22V18.35C14.0141 17.7996 13.8893 17.2539 13.6375 16.7668C13.3858 16.2798 13.0154 15.8671 12.56 15.57C15.18 15.28 17.93 14.25 17.93 9.65C17.9265 8.48013 17.4669 7.35912 16.66 6.53C17.0404 5.49215 17.0161 4.35322 16.59 3.33C16.59 3.33 15.64 3.04 13 4.85C10.95 4.27 8.85 4.27 6.8 4.85C4.16 3.04 3.21 3.33 3.21 3.33C2.78389 4.35322 2.75963 5.49215 3.14 6.53C2.33312 7.35912 1.87351 8.48013 1.87 9.65C1.87 14.24 4.62 15.27 7.24 15.59C6.78464 15.8898 6.41427 16.3024 6.16262 16.7894C5.91097 17.2765 5.78621 17.8221 5.8 18.37V22C5.8 22.5304 6.01071 23.0391 6.38579 23.4142C6.76086 23.7893 7.26957 24 7.8 24H12C12.5304 24 13.0391 23.7893 13.4142 23.4142C13.7893 23.0391 14 22.5304 14 22V19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ppmmmcc1" target="_blank" rel="noopener noreferrer" aria-label="Phillip Castro on GitHub">
+                            <span class="c-label">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M9 19C4 20.5 4 16.5 2 16M22 16V22C22 22.5304 21.7893 23.0391 21.4142 23.4142C21.0391 23.7893 20.5304 24 20 24H16C15.4696 24 14.9609 23.7893 14.5858 23.4142C14.2107 23.0391 14 22.5304 14 22V18.35C14.0141 17.7996 13.8893 17.2539 13.6375 16.7668C13.3858 16.2798 13.0154 15.8671 12.56 15.57C15.18 15.28 17.93 14.25 17.93 9.65C17.9265 8.48013 17.4669 7.35912 16.66 6.53C17.0404 5.49215 17.0161 4.35322 16.59 3.33C16.59 3.33 15.64 3.04 13 4.85C10.95 4.27 8.85 4.27 6.8 4.85C4.16 3.04 3.21 3.33 3.21 3.33C2.78389 4.35322 2.75963 5.49215 3.14 6.53C2.33312 7.35912 1.87351 8.48013 1.87 9.65C1.87 14.24 4.62 15.27 7.24 15.59C6.78464 15.8898 6.41427 16.3024 6.16262 16.7894C5.91097 17.2765 5.78621 17.8221 5.8 18.37V22" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span class="c-name">GitHub</span>
+                            </span>
+                            <span class="c-value">github.com/ppmmmcc1 ↗</span>
                         </a>
-                    </div>
-                </div>
+                    </li>
+                    <li>
+                        <a href="/assets/PhillipCastro_Resume.pdf" target="_blank" rel="noopener noreferrer" aria-label="Download résumé (PDF)">
+                            <span class="c-label">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span class="c-name">Résumé</span>
+                            </span>
+                            <span class="c-value">PhillipCastro_Resume.pdf ↗</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </main>
 
-    <script src="js/main.js"></script>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <p class="footer-mark">Building hardware for a Type&nbsp;I civilization.</p>
+                <nav class="footer-links" aria-label="Footer">
+                    <a href="projects.html">Projects</a>
+                    <a href="concepts.html">Concepts</a>
+                    <a href="about.html">About</a>
+                    <a href="vision.html">Vision</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="/assets/PhillipCastro_Resume.pdf" target="_blank" rel="noopener noreferrer">Résumé ↗</a>
+                </nav>
+            </div>
+            <div class="footer-base">
+                <span>© <span data-year>2026</span> Phillip Castro</span>
+                <span>Boston, MA</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/SplitText.min.js" defer></script>
+    <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js" defer></script>
+    <script src="js/motion.js" defer></script>
+    <script src="js/main.js" defer></script>
 </body>
 </html>
